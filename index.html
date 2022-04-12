@@ -6,68 +6,282 @@
     <link rel="icon" href="images/cmoylogo.png">
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6c81e0b95a.js" crossorigin="anonymous"></script>
 	<title>Cameron Moy</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-86LYHF4HTK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-86LYHF4HTK');
+    </script>
 </head>
+
 <body>
 	<header>
-		<nav>
-			<ul>
-				<li class="active"><a href = "index.html" >Cameron Moy</a></li>
-				<li><a href = "work.html">Work Experience</a></li>
-				<li><a href = "community.html">Community Engagement</a></li>
-				<li><a href = "aboutme.html">Personal Life</a></li>
-			</ul>
-		</nav>
-		<h1>Cameron Moy</h1>
-        <img src="images/snowymountain.jpg" alt = "Image of a snowy mountian" width=200px>
+        <a class="skip" href=#main>Skip to Main Content</a>
+        <div class="header_content">
+            <h1 class="h1_one">Cameron Moy</h1>
+            
+            <nav class="nav_one" tabindex="0">
+                <div class="dropdown">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </div>
+                <ul>
+                    <li class="active"><a href = "index.html">About Me</a></li>
+                    <li><a href = "work.html">Work Experience</a></li>
+                    <li><a href = "community.html">Community Engagement</a></li>
+                    <li><a href = "personal.html">Personal Life</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav_two">
+                <ul>
+                    <li class="active"><a href = "index.html">About Me</a></li>
+                    <li><a href = "work.html">Work Experience</a></li>
+                    <li><a href = "community.html">Community Engagement</a></li>
+                    <li><a href = "personal.html">Personal Life</a></li>
+                </ul>
+            </nav>
+
+            <h1 class="h1_two">Cameron Moy</h1>
+        </div>
+        
 	</header>
 
 	<main>
-        <h2>
-            Welcome, I'm Cameron!
-        </h2>
-        <img src="images/cmoylogo.png" alt = "My personal logo" width=200px>
-        <img src="images/cb.jpg" alt = "Image of Crested Butte at dusk" width=200px>
-        <img src="images/cbtop.jpg" alt = "Image of me at the top of Crested Butte" width=200px>
-        <img src="images/headshot.jpg" alt = "Personal headshot" width=200px>
-        <img src="images/river.jpg" alt = "Picture of me standing by a river and mountain in Colorado" width=200px>
-        <img src="images/bighouse.jpg" alt = "Me at my first game in the Big House" width=200px>
+        <div class="aboutme" id="main">
+            <img class = "headshot" src="images/headshot.jpg" alt = "Headshot"/>
+            
+            <div>
+                <h2>Welcome!</h2>
+                <p>    
+                    I am so glad you are here. On this page you will find more information on my work experience, community engagement, and personal life. As an extrovert, I love meeting new people, so feel free to reach out! 
+                </p>
+            </div>
+        </div>
+         
+        <div class="me">
+            <h3>A little bit about me...</h3>
+            
+            <div class="megrid">
+                <p>
+                    I am currently a Sophomore at the University of Michigan studying Information Analytics at the School of Information with a double minor in Social Class and Inequalities Studies and Music. Originally hailing from Okemos, MI (a small suburb outside of East Lansing), I have been a Michigan fan my whole life and attended my first game in the Big House in 2010! 
+                </p>
 
-        <p>
-            A little bit about me...I am currently a Sophomore at the University of Michigan studying Information Analytics at the School of Information with a double minor in Social Class and Inequalities Studies and Music. Originally hailing from Okemos, MI (a small suburb outside of East Lansing), I have been a Michigan fan my whole life and attended my first game in the Big House in 2010! Outside of my love for all things data, you can find me serving in my local communities, singing with my a cappella group, Amazin' Blue, or skiing with my friends and family.
-        </p>
+                <div class="mecontainer">
+                    <img src="images/bighouse.jpg" alt = "Me at my first game in the Big House" width=200 />
+                </div>
 
-        <p>
-            I am so glad you are here. On this page you will find more information on my work experience, community engagement, and personal life. As an extreme extrovert, I love meeting new people, so feel free to reach out! 
-        </p>
+                <div class="mecontainer">
+                    <img src="images/river.jpg" alt = "Picture of me standing by a river and mountain in Colorado" width=200 />
+                </div>
 
-		<p>
-            My mission: To develop deep, enriching relationships with family and friends; to serve and promote equity within my community, sparking lasting positive change as both a learner and a leader; to recognize and hold myself accountable to personal goals and happiness; to find joy in everything I do.
-        </p>
+                <p>
+                    Outside of my love for all things data, you can find me serving in my local communities, singing with my a cappella group, Amazin' Blue, or skiing with my friends and family.
+                </p>
+            </div>
+        </div>
         
-        <p>
-            My values: Empathy, Equity, Community, Connection, Collaboration, Enthusiasm 
-        </p>
+        <div class="missionVision">
+            <div>
+                <h3>My Mission</h3>
+        
+                <p>
+                    To develop deep, enriching relationships with family and friends; to serve and promote equity within my community, sparking lasting positive change as both a learner and a leader; to recognize and hold myself accountable to personal goals and happiness; to find joy in everything I do.
+                </p>
+		
+                <h3>My Values</h3>
+            
+                <ul>
+                    <li>Empathy</li>
+                    <li>Equity</li>
+                    <li>Community</li>
+                    <li>Connection</li>
+                    <li>Collaboration</li>
+                </ul>
+            </div>
 
-        <h3>
-            What can I do, you may ask? Check it out!
-        </h3>
-        <img src="images/html.jpg" alt = "HTML5 Logo" width=200px>
-        <img src="images/css.jpg" alt = "CSS3 Logo" width=200px>
-        <img src="images/excel.jpg" alt = "Excel Logo" width=200px>
-        <img src="images/python.jpg" alt = "Python Logo" width=200px>
-        <img src="images/rlogo.jpg" alt = "R Studio Link" width=200px>
+            <img src="images/cbtop.jpg" alt = "Image of me at the top of Crested Butte" width=200 />
+        </div>
+        
+        <div class="div_skills">
+            <h3>My Skills</h3>
+
+            <div class="skills">
+                <div class =  "skill" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/html.png" alt = "HTML5 Logo"/>
+                            <p>HTML</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>HTML</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class =  "skill" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/css.png" alt = "CSS3 Logo"/>
+                            <p>CSS</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>CSS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class =  "skill" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/javascript.png" alt = "JavaScript Logo"/>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class =  "skill" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/python.png" alt = "Python Logo"/>
+                            <p>Python</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Python</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class =  "skill" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/sql.png" alt = "SQL Logo"/>
+                            <p>SQL</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>SQL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill" tabindex="0">
+                    <img src="images/rlogo.jpeg" alt = "R Logo"/>
+                    <p>R Studio</p>
+                </div>
+
+                <div class="skill" tabindex="0">
+                    <img src="images/office.png" alt = "Microsoft Office Logo"/>
+                    <p>Microsoft<br>Office</p>
+                </div>
+
+                <!-- <div class =  "skill" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/rlogo.jpeg" alt = "R Logo"/>
+                            <p>R Studio</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>R Studio</p>
+                        </div>
+                    </div>
+                </div> -->
+   
+                <!-- <div class =  "skill" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/office.png" alt = "Microsoft Office Logo"/>
+                            <p>Microsoft<br>Office</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Microsoft<br>Office</p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class =  "skill" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/arcgis.png" alt = "ArcGIS Logo"/>
+                            <p>ArcGIS</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>ArcGIS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class =  "skill" tabindex="0">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="images/photoshop.png" alt = "Photoshop Logo">
+                            <p>Photoshop</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="form">
+            <form  action="https://formspree.io/f/meqnzzok" method="POST">
+                <fieldset>
+                    <legend>Contact Me!</legend>
+                    <label for="first_name" class="name">First Name</label>
+                    <input type="text" placeholder="First Name (Required)" name="first_name" id="first_name" class="name" required>
+                        
+                    <label for="last_name" class="name">Last Name</label>
+                    <input type="text" placeholder="Last Name (Required)" name="last_name" id="last_name" class="name" required>
+        
+                    <br><label for="email">Email</label>
+                    <input type="text" placeholder="Email (Required)" name="email" id="email" required>
+        
+                    <label for="phone">Phone</label>
+                    <input type="text" placeholder="Phone Number" name="phone" id="phone">
+        
+                    <br><label for="message">Message</label>
+                    <textarea id="message" placeholder="Send me a message :)"></textarea> 
+        
+                    <br><input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+
+        <button id="scrollTop">Scroll to Top</button>
+        <a id="scrollLink" href="#main">Skip to Top</a>
+        
+        <p class="copy">Cameron Moy &copy; 2022</p>
 	</main>
 
 	<footer>
-        <p>
-            Let's connect! Feel free to follow me on Instagram, connect with me on LinkedIn, or send me an email!
-        </p>
-        <img src="images/linkedin.jpg" alt = "LinkedIn Logo" width=200px>
-        <img src="images/instagram.jpg" alt = "Instagram Logo" width=200px>
-        <img src="images/gmail.jpg" alt="Gmail Logo" width = 200px>
-        <img src="images/resume.jpg" alt = "Resume Link" width=200px>
-		<p>Cameron Moy &copy; 2022</p>
+        <div class="contacts">
+            <a href = "https://www.linkedin.com/in/cameron-moy-9477771bb/" target="_blank" aria-label="LinkedIn Logo"><i class="footer fa-brands fa-linkedin fa-2x"></i></a>
+            <a href = "https://www.instagram.com/cmoy.11/" aria-label="Instagram Logo" target="_blank"><i class="footer fa-brands fa-instagram-square fa-2x"></i></a>
+
+            <div class="resume">
+                <button onclick="openModal()" id="resumeButton" aria-label="Resume Logo"><i class="resume_icon footer fa-brands fa-solid fa-file-lines fa-2x"></i></button>
+
+                <div class="modal" id="resumeModal">
+                    <div class="modalContent" tabindex="0">
+                        <span onclick="closeModal()" class="close">&times;</span>
+                        <embed src="docs/CMoyResume.pdf"/> 
+                    </div>
+                </div>
+
+            </div>
+        </div>
 	</footer>
+
+    <script src="js/portfolio.js"></script>
+
 </body>
 </html>
