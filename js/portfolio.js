@@ -14,17 +14,6 @@ if (event.target == modal) {
 }
 }
 
-// Scroll to top button
-var scrollButton = document.querySelector("#scrollTop")
-var rootElement = document.documentElement
-scrollButton.addEventListener("click", function() {
-    console.log("Scrolling to Top")
-    rootElement.scrollTo({
-        top: 0,
-        behavior: "smooth",
-    })
-})
-
 // audio
 var gbybr = document.querySelector("#ab")
 var garden = document.querySelector("#garden")

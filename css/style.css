@@ -6,6 +6,10 @@
     max-width: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .active {
     background-color: #FFF;
     text-transform: uppercase;
@@ -318,12 +322,14 @@ main {
     border-radius: 10px;
     border: 2px solid #000;
     padding: 20px;
+    height: 45vw;
 }
 
 .skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    row-gap: 5vw;
 }
 
 .skill {
@@ -331,10 +337,11 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 1vw;
+    height: 12vw;
 }
 
 .skill img {
-    width: 15vw;
+    width: 12vw;
     padding-bottom: 0.25em;
 }
 
@@ -547,16 +554,6 @@ li {
     margin: 0.25em;
 }
 
-#scrollTop {
-    width: 50%;
-    margin: auto;
-    background-color: #7688a3;
-    font-size: 2.5vw;
-    font-family: 'Palanquin', sans-serif;
-    border: 2px solid #000;
-    color: black;
-}
-
 #scrollLink {
     width: 50%;
     text-align: center;
@@ -568,7 +565,6 @@ li {
     border-radius: 60px;
     padding: 0.25em 0.3em;
     text-decoration: none;
-    display: none;
 }
 
 audio {
@@ -644,12 +640,8 @@ audio {
         flex-direction: column;
     }
 
-    #scrollTop {
-        display: none;
-    }
-
-    #scrollLink {
-        display: block;
+    html {
+        scroll-behavior: auto;
     }
   }
 
@@ -740,6 +732,9 @@ audio {
           border-radius: 50%;
           width: 50%;
       }
+      .div_skills {
+          row-gap: 45vw;
+      }
   }
 
   @media screen and (min-width: 900px){  
@@ -776,7 +771,7 @@ audio {
     
     .flip-card-front, .flip-card-back {
         position: absolute;
-        top: 50px;
+        top: 0px;
         width: 100%;
         height: 100%;
         backface-visibility: hidden;
@@ -888,12 +883,12 @@ audio {
         background-attachment: fixed;
       }
     
-    .div_skills {
+    /* .div_skills {
         height: 32vw;
-    }
+    } */
 
     .skills {
-        row-gap: 12vw;
+        row-gap: 0;
     }
   }
 

@@ -22,14 +22,14 @@
 <body>
     <header>
         <a class="skip" href=#main tabindex="0">Skip to Main Content</a>
-        <div class="header_content">
+        <div class="header_content" id="top">
             <h1 class="h1_one">Personal Life</h1>
             
             <nav class="nav_one" tabindex="0">
                 <div class="dropdown">
                     <i class="fa-solid fa-bars fa-2x"></i>
                 </div>
-                <ul>
+                <ul tabindex="0">
                     <li><a href = "index.html">About Me</a></li>
                     <li><a href = "work.html">Work Experience</a></li>
                     <li><a href = "community.html">Community Engagement</a></li>
@@ -113,7 +113,7 @@
                     <audio controls id="ab">
                         <source src="assets/ab.m4a">
                     </audio>
-                    <button id="playAB">
+                    <button id="playAB" aria-label="GBYBR Play Button">
                         <title>GBYBR</title>
                         <i class="fa-solid fa-play fa-4x"></i>
                     </button>
@@ -122,7 +122,7 @@
                         <source src="assets/garden.m4a">
                     </audio>
                     
-                    <button id="playGarden">
+                    <button id="playGarden" aria-label="Garden Play Button">
                         <title>Garden</title>
                         <i class="fa-solid fa-play fa-4x"></i>
                     </button>
@@ -137,8 +137,7 @@
             </div>
         </div>
 
-        <button id="scrollTop">Scroll to Top</button>
-        <a id="scrollLink" href="#main">Skip to Top</a>
+        <a id="scrollLink" href="#top">Skip to Top</a>
         
         <p class="copy">Cameron Moy &copy; 2022</p>
     </main>
